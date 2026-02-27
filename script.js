@@ -1,7 +1,14 @@
- let inp = document.querySelector(".inp");
 
- inp.addEventListener("input", function() {
-      console.log("Typed");
+
+
+
+let inp = document.querySelector(".inp");
+
+ inp.addEventListener("input", function(dets) {
+      if (dets.data !== null) {
+        console.log(dets);
+        
+      }
       
  } );
 
