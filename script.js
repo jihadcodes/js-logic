@@ -1,16 +1,26 @@
+// Change event
+let h2 = document.querySelector("h2");
+let sel = document.querySelector("select")
+sel.addEventListener("change", function (dets) {
+    
+    h2.textContent =  `${dets.target.value} Device selected`
+    
+})
 
 
 
 
-let inp = document.querySelector(".inp");
 
- inp.addEventListener("input", function(dets) {
-      if (dets.data !== null) {
-        console.log(dets);
+// Type event
+// let inp = document.querySelector(".inp");
+
+//  inp.addEventListener("input", function(dets) {
+//       if (dets.data !== null) {
+//         console.log(dets.data);
         
-      }
+//       }
       
- } );
+//  } );
 
 
 
