@@ -1,5 +1,22 @@
+ let inp = document.querySelector(".inp");
+
+ inp.addEventListener("input", function() {
+      console.log("Typed");
+      
+ } );
+
+
+
+
+
+
+
+
+
+
+
 // Filter
-const names = ["Jihad","Rakib","Jahid","Saim"];
+// const names = ["Jihad","Rakib","Jahid","Saim"];
 // const newarr = names.filter(function(){
 //     return true;
 // })
