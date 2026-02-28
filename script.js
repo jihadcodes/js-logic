@@ -1,11 +1,22 @@
-// Change event
-let h2 = document.querySelector("h2");
-let sel = document.querySelector("select")
-sel.addEventListener("change", function (dets) {
-    
-    h2.textContent =  `${dets.target.value} Device selected`
-    
+
+let fileinp = document.querySelector(".fileinp")
+let btn = document.querySelector(".btn")
+
+btn.addEventListener('click', function(){
+    fileinp.click();
 })
+
+
+
+
+// Change event
+// let h2 = document.querySelector("h2");
+// let sel = document.querySelector("select")
+// sel.addEventListener("change", function (dets) {
+    
+//     h2.textContent =  `${dets.target.value} Device selected`
+    
+// })
 
 
 
